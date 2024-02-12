@@ -1,0 +1,20 @@
+{
+  "name": "uniswap-price",
+  "version": "1.0.0",
+  "description": "fetch token price from uniswap v2 & v3",
+  "main": "index.js",
+  "scripts": {
+    "start:v2": "node index.js",
+    "start:v3": "node uniswapV3.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3",
+    "ethers": "^6.11.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.2"
+  }
+}
